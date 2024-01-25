@@ -25,6 +25,12 @@ This repository contains documentation and code related to Tangible Human-Comput
 
 <img width="1144" alt="Screenshot 2024-01-25 at 11 53 58" src="https://github.com/NamiMod/Tangible-HCI/assets/60979433/3541de31-94f8-428a-8bad-a77c1314369d">
 
+**Video of the Assignment**:
+
+
+https://github.com/NamiMod/Tangible-HCI/assets/60979433/3d6af2ea-97fd-4617-826b-53c751ff3307
+
+
 
 **You can find the arduino code insilde the folder A0 on this repository**
 
