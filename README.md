@@ -64,6 +64,18 @@ You can find the generated tone function here
 
 <img width="435" alt="Screenshot 2024-02-13 at 18 02 48" src="https://github.com/NamiMod/Tangible-HCI/assets/60979433/e7063d49-c2f0-43fd-be9d-6f889ad4ed50">
 
+The crucial aspect of the Python code is that there is a thread continuously running the playing sound function while simultaneously listening to the serial port. When a new humidity value arrives, I employ a locking system to pass the updated humidity value to the thread responsible for playing the sound. In this case, everything happens concurrently.
+
+
+<img width="508" alt="Screenshot 2024-02-13 at 18 59 20" src="https://github.com/NamiMod/Tangible-HCI/assets/60979433/6a130543-eaaf-4e35-a99a-05907a72e04f">
+
+
+The Arduino code also reads the humidity level using the DHT library and checks the touch sensor. If the user touches the touch sensor, the Arduino will run the fan for two rounds, thereby decreasing the humidity level inside. Additionally, the Arduino code sends the humidity value to the Python code using the serial protocol. You can see the arduino code here:
+
+
+<img width="360" alt="Screenshot 2024-02-13 at 19 03 06" src="https://github.com/NamiMod/Tangible-HCI/assets/60979433/b6403806-f965-4e29-9cd8-fbdbdf6046d4">
+
+
 
 
 
