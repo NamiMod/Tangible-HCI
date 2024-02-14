@@ -85,6 +85,9 @@ You can find the generated tone function here
 **Video of the Assignment**:
 
 
+https://github.com/NamiMod/Tangible-HCI/assets/60979433/ffa20d20-68fe-4864-9f70-e291375cdaeb
+
+
 **You can find the arduino code insilde the folder A1 on this repository**
 
 
