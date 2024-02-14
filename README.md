@@ -75,7 +75,13 @@ The Arduino code also reads the humidity level using the DHT library and checks 
 
 <img width="360" alt="Screenshot 2024-02-13 at 19 03 06" src="https://github.com/NamiMod/Tangible-HCI/assets/60979433/b6403806-f965-4e29-9cd8-fbdbdf6046d4">
 
+To sum up, with this instrument, I am mapping the level of humidity to sound. By increasing the humidity level based on a formula, I elevate the frequency of the output, and vice versa. Players can also draw upon their previous experience with music, as it functions like a regular trumpet with an additional background sound that the player can control, allowing for the simultaneous production of two sounds.
 
+
+Regarding the formula for converting humidity to frequency, I experimented with various approaches, and the final formula is satisfactory to me. I also paid attention to the details of the embodiment, such as finding an appropriate place for the touch sensor, as well as positioning the humidity sensor and fan. Placing the humidity sensor at the first part of the trumpet ensured accurate detection of humidity increases, as it was in close proximity to the mouth.
+
+
+Concerning the fan, if positioned vertically, it would diminish the trumpet's output and increase humidity levels in the middle, as it directs air against the natural flow in the trumpet. These details have been carefully considered in this implementation.
 
 
 
