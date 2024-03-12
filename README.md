@@ -134,7 +134,29 @@ https://github.com/NamiMod/Tangible-HCI/assets/60979433/ffa20d20-68fe-4864-9f70-
 **Title**: Angry? Eat Chocolate!
 
 
-**Description**: In this assignment,
+**Description**: For this project, we have to collect real-world data and visualize it. While brainstorming for ideas, I thought about a fun concept: giving chocolate to angry people to help them calm down! :)
+
+
+I came up with a cardboard box that people can punch when they're upset. After a certain number of punches, the box gives them a chocolate treat. To count the punches, I used a sensor on the top of the box that measures the distance from top to bottom. When someone punches the box, the distance decreases, and I can detect it as a punch.
+
+
+The box has three lights: green, yellow, and red. When there are fewer than 4 punches, the green light turns on. Between 4 and 10 punches, the yellow light comes on. After 10 punches, the red light lights up, and a motor moves the chocolate from inside the box to outside, so the person can grab their chocolate reward.
+
+
+as for the code part, at first I just define all the necessary pins and also setup the servo.
+
+
+![Screenshot 2024-03-12 at 15 18 30](https://github.com/NamiMod/Tangible-HCI/assets/60979433/48996021-f757-4a18-ae40-5369d9c3ba15)
+
+
+
+In the loop part, I'm simply reading and calculating the distance using the sensor's information. After the distance calculation, I check it against a threshold. If the distance is lower than the threshold, I count it as a punch. Based on the number of punches stored in "anger_counter," I can turn the LEDs on or off and initiate the servo rotation. Overall, with this method, I can tally the punches and reward the angry user with chocolate!
+
+
+![Screenshot 2024-03-12 at 15 18 56](https://github.com/NamiMod/Tangible-HCI/assets/60979433/153c75c1-16db-4d53-8188-3ba3356263a5)
+
+
+You can see the images of the box and also the circuit in the following pictures.
 
 
 **Images of the Assignment**:
