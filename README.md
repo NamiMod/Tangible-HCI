@@ -164,7 +164,11 @@ https://github.com/NamiMod/Tangible-HCI/assets/60979433/ffa20d20-68fe-4864-9f70-
 **Video of the Assignment**:
 
 
-https://github.com/NamiMod/Tangible-HCI/assets/60979433/ffa20d20-68fe-4864-9f70-e291375cdaeb
+
+
+https://github.com/NamiMod/Tangible-HCI/assets/60979433/da84b248-addd-42f4-96be-8fb41c76f9e7
+
+
 
 
 **You can find the arduino code insilde the folder A2 on this repository**
