@@ -125,3 +125,61 @@ https://github.com/NamiMod/Tangible-HCI/assets/60979433/ffa20d20-68fe-4864-9f70-
 
 
 5 - Stackoverflow - Generate a tone in python ([link](https://stackoverflow.com/questions/56592522/python-simple-audio-tone-generator))
+
+
+
+## Assignment 2
+
+
+**Title**: Angry? Eat Chocolate!
+
+
+**Description**: In this assignment,
+
+
+**Images of the Assignment**:
+
+
+![IMG_5694](https://github.com/NamiMod/Tangible-HCI/assets/60979433/b51a3c91-ffd9-4bf8-b0e0-57f3842279f8)
+
+
+![IMG_5695](https://github.com/NamiMod/Tangible-HCI/assets/60979433/b39a6854-419b-4c99-acd6-af63d607a7f8)
+
+
+![IMG_5696](https://github.com/NamiMod/Tangible-HCI/assets/60979433/96c0d3cf-ed27-4243-a5ae-c3159611068e)
+
+
+![IMG_5697](https://github.com/NamiMod/Tangible-HCI/assets/60979433/7a6f1cd0-0ef0-4352-b417-abd1f0e79fd1)
+
+![4f56ae59-5741-47c9-b193-ca31a528038f](https://github.com/NamiMod/Tangible-HCI/assets/60979433/26a26dd3-1b11-4110-bf3a-e5c4df84e4ce)
+
+
+![3892fe4c-2f45-4f9e-b2f1-b59db08cee22](https://github.com/NamiMod/Tangible-HCI/assets/60979433/e082888a-70b6-4b83-a8ee-8991f8e43cba)
+
+
+![circuit](https://github.com/NamiMod/Tangible-HCI/assets/60979433/3856d743-08bd-4e6a-9784-651c3d7e7989)
+
+
+
+**Video of the Assignment**:
+
+
+https://github.com/NamiMod/Tangible-HCI/assets/60979433/ffa20d20-68fe-4864-9f70-e291375cdaeb
+
+
+**You can find the arduino code insilde the folder A2 on this repository**
+
+
+**References**:
+
+
+1 - Arduino Documentation - Servo ([link](https://docs.arduino.cc/learn/electronics/servo-motors/))
+
+
+2 - Arduino Documentation - HC-SR04 Ultrasonic sensor ([link](https://projecthub.arduino.cc/Isaac100/getting-started-with-the-hc-sr04-ultrasonic-sensor-7cabe1))
+
+
+3 - Arduino Documentation - RGB Led ([link](https://projecthub.arduino.cc/semsemharaz/interfacing-rgb-led-with-arduino-b59902))
+
+
+5 - Arduino Documentation - Blink ([link](https://docs.arduino.cc/built-in-examples/basics/Blink/))
