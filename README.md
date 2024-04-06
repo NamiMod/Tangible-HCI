@@ -242,17 +242,10 @@ In summary, the following are the list of improvements:
 
 
 
-as for the code part, at first I just define all the necessary pins and also setup the servo.
+As for the code part, at first I just define all the necessary pins and also setup the servo. In the loop part, I'm reading and calculating the distance using the sensor's information. After the distance calculation, I check it against a threshold. If the distance is lower than the threshold, I count it as a punch. Based on the number of punches stored in "anger_counter," I can show different outputs and initiate the servo rotation. Overall, with this method, I can count punches and reward the angry user with chocolate!
 
 
-![Screenshot 2024-03-12 at 15 18 30](https://github.com/NamiMod/Tangible-HCI/assets/60979433/48996021-f757-4a18-ae40-5369d9c3ba15)
-
-
-
-In the loop part, I'm simply reading and calculating the distance using the sensor's information. After the distance calculation, I check it against a threshold. If the distance is lower than the threshold, I count it as a punch. Based on the number of punches stored in "anger_counter," I can turn the LEDs on or off and initiate the servo rotation. Overall, with this method, I can tally the punches and reward the angry user with chocolate!
-
-
-![Screenshot 2024-03-12 at 15 18 56](https://github.com/NamiMod/Tangible-HCI/assets/60979433/153c75c1-16db-4d53-8188-3ba3356263a5)
+<img width="418" alt="Screenshot 2024-04-06 at 12 12 11" src="https://github.com/NamiMod/Tangible-HCI/assets/60979433/c7c82e72-3779-4bc6-b0bd-44e21d18aa75">
 
 
 You can see the images of the box and also the circuit in the following pictures.
@@ -260,39 +253,31 @@ You can see the images of the box and also the circuit in the following pictures
 
 **Images of the Assignment**:
 
-
-![IMG_5694](https://github.com/NamiMod/Tangible-HCI/assets/60979433/b51a3c91-ffd9-4bf8-b0e0-57f3842279f8)
-
-
-![IMG_5695](https://github.com/NamiMod/Tangible-HCI/assets/60979433/b39a6854-419b-4c99-acd6-af63d607a7f8)
+![IMG_6444](https://github.com/NamiMod/Tangible-HCI/assets/60979433/63849656-e400-4e2e-9eee-27c8c176785f)
 
 
-![IMG_5696](https://github.com/NamiMod/Tangible-HCI/assets/60979433/96c0d3cf-ed27-4243-a5ae-c3159611068e)
+![IMG_6445](https://github.com/NamiMod/Tangible-HCI/assets/60979433/3a93f2f1-d150-400f-b360-b9e11d6c8b05)
 
 
-![IMG_5697](https://github.com/NamiMod/Tangible-HCI/assets/60979433/7a6f1cd0-0ef0-4352-b417-abd1f0e79fd1)
-
-![4f56ae59-5741-47c9-b193-ca31a528038f](https://github.com/NamiMod/Tangible-HCI/assets/60979433/26a26dd3-1b11-4110-bf3a-e5c4df84e4ce)
+![IMG_6446](https://github.com/NamiMod/Tangible-HCI/assets/60979433/d78fa914-b8ff-418f-8b14-9f876781c22a)
 
 
-![3892fe4c-2f45-4f9e-b2f1-b59db08cee22](https://github.com/NamiMod/Tangible-HCI/assets/60979433/e082888a-70b6-4b83-a8ee-8991f8e43cba)
+![IMG_6451](https://github.com/NamiMod/Tangible-HCI/assets/60979433/4896beb4-312e-46f9-9bf4-093114f94ccf)
 
 
-![circuit](https://github.com/NamiMod/Tangible-HCI/assets/60979433/3856d743-08bd-4e6a-9784-651c3d7e7989)
+![IMG_6447](https://github.com/NamiMod/Tangible-HCI/assets/60979433/82b0c7f4-b211-4f05-97d7-ebe8d2d84c64)
 
+
+![IMG_6448](https://github.com/NamiMod/Tangible-HCI/assets/60979433/bde878c9-6b93-44ad-ac08-d3314d0300c0)
 
 
 **Video of the Assignment**:
 
 
+https://github.com/NamiMod/Tangible-HCI/assets/60979433/cd1359c1-f32a-4e7a-8b16-08cbddfc37ff
 
 
-https://github.com/NamiMod/Tangible-HCI/assets/60979433/da84b248-addd-42f4-96be-8fb41c76f9e7
-
-
-
-
-**You can find the arduino code insilde the folder A2 on this repository**
+**You can find the arduino code and also the python program inside the folder A3 on this repository**
 
 
 **References**:
@@ -308,3 +293,19 @@ https://github.com/NamiMod/Tangible-HCI/assets/60979433/da84b248-addd-42f4-96be-
 
 
 5 - Arduino Documentation - Blink ([link](https://docs.arduino.cc/built-in-examples/basics/Blink/))
+
+
+6 - Arduino Documentation - Python and Arduino, Serial communication ([link](https://projecthub.arduino.cc/ansh2919/serial-communication-between-python-and-arduino-663756))
+
+
+7 - Rohde-Schwarz - Serial Protocol ([link]([https://projecthub.arduino.cc/ansh2919/serial-communication-between-python-and-arduino-663756](https://www.rohde-schwarz.com/ca/products/test-and-measurement/essentials-test-equipment/digital-oscilloscopes/understanding-serial-protocols_254522.html#:~:text=Serial%20protocols%20are%20used%20to,components%20or%20between%20separate%20devices.&text=Serial%20protocols%20can%20be%20divided,like%20UART%2C%20I²C%20and%20SPI)))
+
+
+8 - Macht, M., & Dettmer, D. (2006). Everyday mood and emotions after eating a chocolate bar or an Apple. Appetite, 46(3), 332–336. https://doi.org/10.1016/j.appet.2006.01.014 
+
+
+9 - Macht, M., & Mueller, J. (2007). Immediate effects of chocolate on experimentally induced mood states. Appetite, 49(3), 667–674. https://doi.org/10.1016/j.appet.2007.05.004 
+
+
+10 - Macht, M., Roth, S., & Ellgring, H. (2002). Chocolate eating in healthy men during experimentally induced sadness and joy. Appetite, 39(2), 147–158. https://doi.org/10.1006/appe.2002.0499 
+
