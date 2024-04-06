@@ -209,3 +209,102 @@ https://github.com/NamiMod/Tangible-HCI/assets/60979433/da84b248-addd-42f4-96be-
 
 
 5 - Arduino Documentation - Blink ([link](https://docs.arduino.cc/built-in-examples/basics/Blink/))
+
+
+## Assignment 3
+
+
+**Title**: Angry? Eat Chocolate! (Version 2.0)
+
+
+**Description**: For this project, we have to collect real-world data and visualize it. While brainstorming for ideas, I thought about a fun concept: giving chocolate to angry people to help them calm down! :)
+
+
+I've devised a cardboard box for people to punch when they're upset. After a certain number of punches, the box dispenses chocolate. To tally the punches, I installed a sensor on the box's top that measures the distance from top to bottom. When someone punches the box, the distance decreases, allowing me to detect it as a punch. In this version, there's a Python program communicating with an Arduino using the serial protocol. Now, we can enjoy improved text and audio output instead of just LEDs. The Arduino sends the punch count to the Python program, which triggers different responses based on the number of punches. These responses include: 'It's good to chill and enjoy life and the nice weather!', 'Okay, okay, let's all just chill!', and 'Chill out! Have some chocolate!
+
+
+Another improvement I've made for this box is enhancing the punch counting system. We now have two sensors instead of one, and these sensors utilize an improved formula to convert their data into real-world distances more accurately. Having two sensors offers several benefits. For instance, I can now detect punches more precisely by monitoring two distances simultaneously. Another advantage is that if one sensor becomes disconnected, the system can still function without counting it as a punch.
+
+
+Another improvement with this box relates to its build quality. The anger box shouldn't be beautiful, as then no one wants to punch it! Instead, it should be strong enough. Therefore, I opted for a stronger cardboard box this time. Additionally, all the wires are now fixed and attached securely, making disconnection not so easy. Furthermore, I've implemented some software features to ensure functionality even if one sensor becomes disconnected..
+
+
+The final improvement involves the chocolate dispensing system. In the previous version, I simply attached the chocolate to the servo, and by spinning it, the chocolate moved to the outside of the box. In this version, I've attached a stick to the servo, which, when spun, pushes the chocolates to the outside of the box. With this mechanism, we can now dispense more than one chocolate at a time!
+
+In summary, the following are the list of improvements:
+
+1- Improved and more accurate formula for converting sensor data to distance.
+2- Addition of a second distance sensor for better punch counting.
+3- Implementation of text and audio outputs instead of three LEDs.
+4- Integration of a Python program connected to Arduino using serial communication to display outputs.
+5- Enhancement of the chocolate dispensing mechanism.
+6- Strengthened wire connections and overall improved build quality
+
+
+
+as for the code part, at first I just define all the necessary pins and also setup the servo.
+
+
+![Screenshot 2024-03-12 at 15 18 30](https://github.com/NamiMod/Tangible-HCI/assets/60979433/48996021-f757-4a18-ae40-5369d9c3ba15)
+
+
+
+In the loop part, I'm simply reading and calculating the distance using the sensor's information. After the distance calculation, I check it against a threshold. If the distance is lower than the threshold, I count it as a punch. Based on the number of punches stored in "anger_counter," I can turn the LEDs on or off and initiate the servo rotation. Overall, with this method, I can tally the punches and reward the angry user with chocolate!
+
+
+![Screenshot 2024-03-12 at 15 18 56](https://github.com/NamiMod/Tangible-HCI/assets/60979433/153c75c1-16db-4d53-8188-3ba3356263a5)
+
+
+You can see the images of the box and also the circuit in the following pictures.
+
+
+**Images of the Assignment**:
+
+
+![IMG_5694](https://github.com/NamiMod/Tangible-HCI/assets/60979433/b51a3c91-ffd9-4bf8-b0e0-57f3842279f8)
+
+
+![IMG_5695](https://github.com/NamiMod/Tangible-HCI/assets/60979433/b39a6854-419b-4c99-acd6-af63d607a7f8)
+
+
+![IMG_5696](https://github.com/NamiMod/Tangible-HCI/assets/60979433/96c0d3cf-ed27-4243-a5ae-c3159611068e)
+
+
+![IMG_5697](https://github.com/NamiMod/Tangible-HCI/assets/60979433/7a6f1cd0-0ef0-4352-b417-abd1f0e79fd1)
+
+![4f56ae59-5741-47c9-b193-ca31a528038f](https://github.com/NamiMod/Tangible-HCI/assets/60979433/26a26dd3-1b11-4110-bf3a-e5c4df84e4ce)
+
+
+![3892fe4c-2f45-4f9e-b2f1-b59db08cee22](https://github.com/NamiMod/Tangible-HCI/assets/60979433/e082888a-70b6-4b83-a8ee-8991f8e43cba)
+
+
+![circuit](https://github.com/NamiMod/Tangible-HCI/assets/60979433/3856d743-08bd-4e6a-9784-651c3d7e7989)
+
+
+
+**Video of the Assignment**:
+
+
+
+
+https://github.com/NamiMod/Tangible-HCI/assets/60979433/da84b248-addd-42f4-96be-8fb41c76f9e7
+
+
+
+
+**You can find the arduino code insilde the folder A2 on this repository**
+
+
+**References**:
+
+
+1 - Arduino Documentation - Servo ([link](https://docs.arduino.cc/learn/electronics/servo-motors/))
+
+
+2 - Arduino Documentation - HC-SR04 Ultrasonic sensor ([link](https://projecthub.arduino.cc/Isaac100/getting-started-with-the-hc-sr04-ultrasonic-sensor-7cabe1))
+
+
+3 - Arduino Documentation - RGB Led ([link](https://projecthub.arduino.cc/semsemharaz/interfacing-rgb-led-with-arduino-b59902))
+
+
+5 - Arduino Documentation - Blink ([link](https://docs.arduino.cc/built-in-examples/basics/Blink/))
