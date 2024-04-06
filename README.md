@@ -217,13 +217,13 @@ https://github.com/NamiMod/Tangible-HCI/assets/60979433/da84b248-addd-42f4-96be-
 **Title**: Angry? Eat Chocolate! (Version 2.0)
 
 
-<iframe src="https://giphy.com/embed/l0Iy03oENROmbVeeY" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/sport-joker-motivation-l0Iy03oENROmbVeeY">via GIPHY</a></p>
+![giphy](https://github.com/NamiMod/Tangible-HCI/assets/60979433/b5a26a6d-3a57-4038-978a-4f6a12e5c35e)
 
 
 **Description**: For this project, we have to collect real-world data and visualize it. While brainstorming for ideas, I thought about a fun concept: giving chocolate to angry people to help them calm down! :)
 
 
-<iframe src="https://giphy.com/embed/l0Iy03oENROmbVeeY" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/sport-joker-motivation-l0Iy03oENROmbVeeY">via GIPHY</a></p>
+![giphy-3](https://github.com/NamiMod/Tangible-HCI/assets/60979433/b0df9fbb-fc8d-4995-b425-8c494a23a498)
 
 
 I've devised a cardboard box for people to punch when they're upset. After a certain number of punches, the box dispenses chocolate. To tally the punches, I installed a sensor on the box's top that measures the distance from top to bottom. When someone punches the box, the distance decreases, allowing me to detect it as a punch. In this version, there's a Python program communicating with an Arduino using the serial protocol. Now, we can enjoy improved text and audio output instead of just LEDs. The Arduino sends the punch count to the Python program, which triggers different responses based on the number of punches. These responses include: 'It's good to chill and enjoy life and the nice weather!', 'Okay, okay, let's all just chill!', and 'Chill out! Have some chocolate!
@@ -247,7 +247,7 @@ In summary, the following are the list of improvements:
 6- Strengthened wire connections and overall improved build quality
 
 
-<iframe src="https://giphy.com/embed/b38YhNajRRVuZop2jz" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/petsureuk-petsure-bepetsure-staysure-b38YhNajRRVuZop2jz">via GIPHY</a></p>
+![giphy-2](https://github.com/NamiMod/Tangible-HCI/assets/60979433/bfe3a7ac-309d-4791-b4b2-4cd0d23c5491)
 
 
 As for the code part, at first I just define all the necessary pins and also setup the servo. In the loop part, I'm reading and calculating the distance using the sensor's information. After the distance calculation, I check it against a threshold. If the distance is lower than the threshold, I count it as a punch. Based on the number of punches stored in "anger_counter," I can show different outputs and initiate the servo rotation. Overall, with this method, I can count punches and reward the angry user with chocolate!
