@@ -240,10 +240,20 @@ The final improvement involves the chocolate dispensing system. In the previous 
 In summary, the following are the list of improvements:
 
 1- Improved and more accurate formula for converting sensor data to distance.
+
+
 2- Addition of a second distance sensor for better punch counting.
+
+
 3- Implementation of text and audio outputs instead of three LEDs.
+
+
 4- Integration of a Python program connected to Arduino using serial communication to display outputs.
+
+
 5- Enhancement of the chocolate dispensing mechanism.
+
+
 6- Strengthened wire connections and overall improved build quality
 
 
